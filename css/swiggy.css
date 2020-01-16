@@ -1,0 +1,157 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.leftHeaderBlock{
+    width: 55%;
+    float: left;
+}
+
+.rightHeaderBlock{
+    width: 45%;
+    background: url(../images/food.jpeg);
+    float: left;
+    height: 600px;
+    background-size: cover;
+}
+.logo{
+    width: 30%;
+    float: left;
+    height: 70px;
+}
+.menu{
+    width: 70%;
+    float: right;
+    text-align: right;
+}
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 64px;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+#menuAndLogo{
+    padding: 60px;
+}
+
+.logo svg{
+    fill: #fc8019;
+    width: 200px;
+}
+
+.menu ul li a{
+    color: black;
+    padding: 17px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul li a:hover{
+    color: #fc8019;
+    
+}
+
+.signUp{
+    
+    background: black;
+    color: white !important; 
+}
+#mainContentBlock, .footerList{
+    padding: 20px 60px;
+}
+
+.headerTitle h1{
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.mainBlockContent p{
+    font-size: 23px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.form-control{
+    
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form{
+    position: relative;
+}
+
+.btn{
+
+    position: absolute;
+    background: #fc8019;
+    color: white;
+    padding: 10px;
+    border: none;
+    right: 0;
+    top: 0;
+    height: 56px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.locateme{
+    position: absolute;
+    right: 130px;
+    top: 10px;
+    padding: 10px 20px;
+}
+
+.locateme:hover{
+    background: #eee;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+}
+
+.footerList h3{
+    color: rgba(238, 238, 238, 0.459);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.footerList ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.footerList ul li {
+    display: inline-block;
+}
+
+.footerList ul li a{
+    display: inline block;
+}
+
+.footerList ul li a{
+    text-decoration: none;
+}
+
+.footerList ul li:nth-child(odd) a{
+    color: black;
+}
+
+.footerList ul li:nth-child(even) a{
+    color: #eee;
+}
+
