@@ -155,3 +155,109 @@ body{
     color: #eee;
 }
 
+.rightHeaderBlock{
+    text-indent: -9999px;
+}
+
+
+/* middle section CSS here */
+
+#middleSection{
+    background: #2b1e16;;
+    height: 600px;
+    clear: both;
+}
+
+.left{
+    width: 30%;
+    float: left;
+}
+
+.middle{
+    width: 30%;
+    float: left;
+}
+
+.right{
+    width: 30%;
+    float: left;
+}
+
+.contentarea{
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.contentarea h1{
+    font-size: 18px;
+}
+
+.contentarea p{
+    font-size: 14px;
+}
+
+#headerBlock{
+    background: red;
+}
+
+#restaurants{
+    clear: both;
+}
+
+.restaurants_left{
+    width: 45%;
+    float: left;
+}
+
+.restaurants_right{
+    width: 55%;
+    float: left;
+}
+
+.restaurants_left section{
+    padding: 110px 80px;
+}
+
+.restaurants_left section h1{
+    font-size: 34px;
+    font-weight: 600;
+    padding: 0;
+    width: 60%;
+    margin: 20px 0px;
+}
+
+.restaurants_left section p{
+    font-size: 18px;
+    color: #999;
+    padding: 0px 0px 40px 0px;
+    margin: 0px;
+}
+
+.restaurants_left section figure,
+.restaurants_right figure{
+    margin: 0;
+    display: inline-block;
+}
+
+.restaurants_left section figure img{
+    width: 180px;
+}
+
+.restaurants_right figure img{
+    width: 400px;
+}
+
+.restaurants_right figure{
+    float: left;
+    width: 46%;
+}
+
+.restaurants_right figure:nth-child(2){
+    padding-top: 70px;
+}
+
+
+
+
+
